@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Button1: TButton
+    Height = 44.000000000000000000
+    Position.X = 112.000000000000000000
+    Position.Y = 320.000000000000000000
+    TabOrder = 1
+    Text = 'Entrar'
+    TintColor = claRed
+    Width = 129.000000000000000000
+  end
+  object Text1: TText
+    Height = 50.000000000000000000
+    Position.X = 40.000000000000000000
+    Position.Y = 136.000000000000000000
+    Width = 281.000000000000000000
+  end
+  object TextLayer3D1: TTextLayer3D
+    Color = claBlack
+    Height = 4.000000000000000000
+    Resolution = 50
+    Width = 8.000000000000000000
+  end
+  object Text2: TText
+    Height = 50.000000000000000000
+    Position.X = 40.000000000000000000
+    Position.Y = 216.000000000000000000
+    Width = 281.000000000000000000
+  end
+end
